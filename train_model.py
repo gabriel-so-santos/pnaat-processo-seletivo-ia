@@ -45,4 +45,4 @@ model.fit(x_train, y_train, epochs=4, batch_size=32, validation_split=0.10, verb
 loss, acc = model.evaluate(x_test, y_test)
 print(f"\naccuracy: {acc*100:.4f}%\nloss {loss*100:.4f}%")
 
-model.save('mnist_model.h5')
+model.save('model.h5')
